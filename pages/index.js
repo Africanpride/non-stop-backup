@@ -250,7 +250,7 @@ export default function Home() {
       viewport={{ once: true }}
       className={sectionCss}>
 
-      <ImageBlock imgSrc='/images/john.jpg' />
+      <ImageBlock imgSrc='/images/john2.jpg' />
 
       <BlockOne>
         <BlockCardInner
