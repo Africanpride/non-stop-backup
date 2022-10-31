@@ -19,7 +19,8 @@ const navElements = [
   { name: 'Home', href: '/' },
   { name: 'About The Series', href: '/about'},
   { name: 'History', href: '/history'},
-  { name: 'Ministrations', href: '/ministrations', liveIndicator: true},
+  { name: 'Ministrations', href: '/ministrations', liveIndicator: false},
+  { name: 'Live', href: '/live', liveIndicator: true},
   // { name: 'News & Events', href: '/news' },
   { name: 'Contact', href: '/contact' },
 ]

@@ -31,8 +31,9 @@ export default function Contact() {
   const tiktokLink = <Link href='https://www.google.com.gh/maps?q=logos+rhema+foundation+map&client=ubuntu&um=1&ie=UTF-8&sa=X&ved=0ahUKEwiju6mI__jjAhWJHRQKHek_BtYQ_AUIEigC'><a className='cursor-pointer'> Click For Direction<br />To Location</a></Link>
 
   const youtubeLink = <Link href='https://www.youtube.com/channel/UCszsGdub8qkbJOz_rdx-5IA'>
-  <a className='cursor-pointer'>Follow us Live<br />On Youtube </a>
-</Link>
+    <a className='cursor-pointer'>Follow us Live<br />On Youtube </a>
+  </Link>
+
 
 
   return (

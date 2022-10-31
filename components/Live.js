@@ -5,7 +5,7 @@ const[live, setLive] = useState(false);
 
     function liveStream() {
         const date = new Date();
-        const start = new Date("October 31, 2022 18:00:00");
+        const start = new Date("October 31, 2022 16:00:00");
         const end = new Date("November 6, 2022 18:00:00");
 
         if (date > start && date < end) {
