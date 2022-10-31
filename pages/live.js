@@ -20,6 +20,7 @@ import { motion, Variants } from "framer-motion";
 import Twenty from '../components/twenty';
 import Message from '../components/message';
 import Choir from '../components/Choir'
+import LiveFrame from '../components/liveFrame';
 
 
 
@@ -74,7 +75,7 @@ const tiktokLink = <Link href='https://www.tiktok.com/@thenonstopseries'><a clas
   // const sectionCssBlock = ctl(`py-16 rounded-neat m-5 bg-slate-200 dark:bg-slate-800 font-[lato] block  min-h-[60vh]`)
   return <>
 
-    <section className="snap-y relative md:h-[90vh] h-auto w-full flex flex-col md:justify-between justify-center gap-4  py-5 md:py-10 ">
+    <section className="hidden snap-y relative md:h-[90vh] h-auto w-full  flex-col md:justify-between justify-center gap-4  py-5 md:py-10 ">
       <Image
         layout={`fill`}
         src={`/images/comm.jpg`}
@@ -112,7 +113,8 @@ const tiktokLink = <Link href='https://www.tiktok.com/@thenonstopseries'><a clas
 
 
         <div className='text-gray-900 dark:text-white'>
-          <GridImages />
+          <LiveFrame />
+          
 
         </div>
       </div>
@@ -151,7 +153,7 @@ const tiktokLink = <Link href='https://www.tiktok.com/@thenonstopseries'><a clas
       viewport={{ once: true }}
       className={sectionCss}>
 
-      <ImageBlock imgSrc='/images/john.jpg' />
+      <ImageBlock imgSrc='/images/live2.png' />
 
       <BlockOne>
         <BlockCardInner

@@ -49,7 +49,7 @@ const CSMessage = () => {
 
       <div className='  aspect-video '>
         <Image
-          src={`/images/cs.jpg`}
+          src={`/images/worship.jpg`}
           alt='Message from The Chief Servant'
           layout='fill'
           // objectFit='fit'
