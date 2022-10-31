@@ -69,7 +69,7 @@ const CSMessage = () => {
         <ReactPlayer
           className={'aspect-video w-full rounded-neat'}
           // url={'https://youtu.be/CnAu4bV7sX8?t=26840'}
-          url={'https://www.youtube.com/channel/UC_43aGdcd0mLYjeK84Yn3mg/live'}
+          url={'https://www.youtube.com/watch?v=OkMm8ZMWOZs'}
           width='100%'
           height='100%'
           controls='true'
