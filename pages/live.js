@@ -153,7 +153,7 @@ const tiktokLink = <Link href='https://www.tiktok.com/@thenonstopseries'><a clas
       viewport={{ once: true }}
       className={sectionCss}>
 
-      <ImageBlock imgSrc='/images/live2.png' />
+      <ImageBlock imgSrc='/images/john2.jpg' />
 
       <BlockOne>
         <BlockCardInner
