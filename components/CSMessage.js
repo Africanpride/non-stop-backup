@@ -66,18 +66,18 @@ const CSMessage = () => {
       className='fixed inset-0 bg-black bg-opacity-25 backdrop-blur-xl w-full h-full flex justify-center items-center z-40 overflow-hidden'>
 
       <div className='w-full md:w-auto h-4/6  z-50 grid place-content-center place-items-center  rounded-md inset-0 '>
-        {/* <ReactPlayer
+        <ReactPlayer
           className={'aspect-video w-full rounded-neat'}
-          url={'https://www.youtube.com/channel/UC_43aGdcd0mLYjeK84Yn3mg/live'}
+          url={'https://www.youtube.com/watch?v=BV97eE4r_IE'}
           width='100%'
           height='100%'
           controls='true'
           // light='/images/john.jpg'
         playing='true'
         >
-        </ReactPlayer> */}
+        </ReactPlayer>
 
-        <iframe width="560" height="315" src="https://youtu.be/MvImRC7Mmg0?t=1607" frameborder="0" allowfullscreen></iframe>
+        {/* <iframe width="560" height="315" src="https://www.youtube.com/watch?v=BV97eE4r_IE" frameborder="0" allowfullscreen></iframe> */}
         {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/live_stream?channel=UC_43aGdcd0mLYjeK84Yn3mg" frameborder="0" allowfullscreen></iframe> */}
         {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/live_stream?channel=UCszsGdub8qkbJOz_rdx-5IA" frameborder="0" allowfullscreen></iframe> */}
       </div>
