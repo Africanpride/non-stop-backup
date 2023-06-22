@@ -85,7 +85,7 @@ export default function Home() {
         <button type="button" className="bg-black dark:focus:ring-gray-600 dark:hover:bg-black/40 flex focus:ring-4 focus:ring-black/50 font-medium hover:bg-black/80 items-center mb-2 md:w-content mr-2 px-5 py-2.5 rounded-lg text-center text-sm text-white">
 
           <FontAwesomeIcon icon={faGlobe} className=" text-lg text-yellow-400 h-6 w-6"></FontAwesomeIcon>
-          <div className='px-2'>6PM, 31st October - 6PM, 6th November, 2022</div>
+          <div className='px-2'>6PM, 29th October - 8PM, 8th November, 2023</div>
         </button>
       </div>
 
@@ -111,8 +111,9 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="w-full flex md:flex-row items-center md:items-start justify-start z-30 px-8">
-        <h5 className="text-xl font-bold leading-tight text-gray-100 dark:text-white text-left">20th Anniversary Edition<br />@Accra, GH</h5>
+      <div className="w-full flex md:flex-row items-center md:items-start justify-between z-30 px-8">
+        <div className="text-4xl uppercase font-bold leading-tight   text-left">2023 Edition</div>
+        <div className="text-xl font-bold leading-tight  text-yellow-400 text-left">Logos-Rhema Foundation<br />La - Accra, Ghana</div>
       </div>
     </section>
     <Twenty />
