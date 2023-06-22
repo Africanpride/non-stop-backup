@@ -82,11 +82,11 @@ export default function Home() {
 
       <div className=' px-8 z-20 relative '>
 
-        <button type="button" className="bg-black dark:focus:ring-gray-600 dark:hover:bg-black/40 flex focus:ring-4 focus:ring-black/50 font-medium hover:bg-black/80 items-center mb-2 md:w-content mr-2 px-5 py-2.5 rounded-lg text-center text-sm text-white">
+        <div className="bg-black dark:focus:ring-gray-600 dark:hover:bg-black/40 flex focus:ring-4 focus:ring-black/50 font-medium gap-6 hover:bg-black/80 inline-flex items-center mb-2 md:text-center px-5 py-2.5 rounded-lg text-sm text-white">
 
-          <FontAwesomeIcon icon={faGlobe} className=" text-lg text-yellow-400 h-6 w-6"></FontAwesomeIcon>
-          <div className='px-2'>6PM, 29th October - 8PM, 8th November, 2023</div>
-        </button>
+          <FontAwesomeIcon icon={faGlobe} className=" text-4xl text-yellow-400"></FontAwesomeIcon>
+          <div className='px-2'>6PM, 29th October  -  8PM, 8th November, 2023</div>
+        </div>
       </div>
 
       <div className='flex flex-col items-center justify-between md:flex-row md:items-center overflow-hidden px-8 relative text-clip w-full z-30'>
@@ -100,7 +100,7 @@ export default function Home() {
             duration: 5
           }}
 
-          className='relative z-20 font-[anton] text-2xl md:text-6xl uppercase text-white dark:text-white leading-tight'>
+          className='relative z-20 font-[anton] text-xl md:text-6xl uppercase text-white dark:text-white leading-tight'>
           A Gathering of  Nations For 144 <br />Hours Non-Stop Praise & Worship
         </motion.div>
 
@@ -110,11 +110,11 @@ export default function Home() {
 
         </div>
       </div>
+<div className="flex flex-col md:flex-row md:justify-between gap-4 text-white text-4xl w-full z-10 px-8">
+  <div className="md:text-5xl uppercase font-bold leading-loose  text-left gradient">2023 Edition</div>
+  <div className="font-['anton'] leading-tight md:text-xl text-base text-left text-yellow-400 ">Logos-Rhema Foundation<br />La - Accra, Ghana</div>
+  </div>
 
-      <div className="w-full flex md:flex-row items-center md:items-start justify-between z-30 px-8">
-        <div className="text-4xl uppercase font-bold leading-tight   text-left">2023 Edition</div>
-        <div className="text-xl font-bold leading-tight  text-yellow-400 text-left">Logos-Rhema Foundation<br />La - Accra, Ghana</div>
-      </div>
     </section>
     <Twenty />
     <section className='bg-lightcolor2 dark:bg-gray-900 md:py-32 relative overflow-hidden'>

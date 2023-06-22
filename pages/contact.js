@@ -82,7 +82,7 @@ export default function Contact() {
           <BlockCardInner
             title={'Hotlines'}
             fonts={'font-bold'}
-            innerText={parse('+233(0)240640951 <br /> +233(0)240917741 ')}
+            innerText={parse('+233(0)208223547 <br /> +233(0)244844893 ')}
             icon={faPhone}
             bottomIcon
             displayBottom={true}
