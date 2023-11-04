@@ -21,6 +21,7 @@ import Twenty from '../components/twenty';
 import Message from '../components/message';
 import Choir from '../components/Choir'
 import LiveFrame from '../components/liveFrame';
+import LiveStream from '../components/liveStream';
 
 
 
@@ -134,7 +135,8 @@ const tiktokLink = <Link href='https://www.tiktok.com/@thenonstopseries'><a clas
         />
       </div>
 
-      <CSMessage />
+      {/* <CSMessage /> */}
+      <LiveStream />
 
     </section>
 

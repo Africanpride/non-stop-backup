@@ -20,7 +20,7 @@ export default function Twenty() {
 
                 <section className="py-10 bg-black snap-y">
                 <h1 className=" leading-tight text-center  px-5 py-10 my-5 text-slate-900 text-xl md:text-5xl tracking-tight font-extrabold  dark:text-white gradient mb-16">
-                    {parse(`For 19+ Years, We've brought people together from all parts of the world in Praise &  Worship.`)}            
+                    {parse(`For 20+ Years, We've brought people together from all parts of the world in Praise &  Worship.`)}            
                 </h1>
 
                 <div className="md:mt-14 mt-4 relative sm:flex items-center justify-center">

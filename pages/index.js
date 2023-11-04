@@ -20,6 +20,7 @@ import { motion, Variants } from "framer-motion";
 import Twenty from '../components/twenty';
 import Message from '../components/message';
 import Choir from '../components/Choir'
+import LiveStream from '../components/liveStream';
 
 
 
@@ -82,7 +83,7 @@ export default function Home() {
 
       <div className=' px-8 z-20 relative '>
 
-        <div className="bg-black dark:focus:ring-gray-600 dark:hover:bg-black/40 flex focus:ring-4 focus:ring-black/50 font-medium gap-6 hover:bg-black/80 inline-flex items-center mb-2 md:text-center px-5 py-2.5 rounded-lg text-sm text-white">
+        <div className="bg-black dark:focus:ring-gray-600 dark:hover:bg-black/40  focus:ring-4 focus:ring-black/50 font-medium gap-6 hover:bg-black/80 inline-flex items-center mb-2 md:text-center px-5 py-2.5 rounded-lg text-sm text-white">
 
           <FontAwesomeIcon icon={faGlobe} className=" text-4xl text-yellow-400"></FontAwesomeIcon>
           <div className='px-2'>6PM, 29th October  -  8PM, 4th November, 2023</div>
@@ -127,7 +128,7 @@ export default function Home() {
         />
       </div>
 
-      <CSMessage />
+      <LiveStream />
 
     </section>
 

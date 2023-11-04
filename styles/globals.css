@@ -363,3 +363,8 @@ button.scroll-to-top.grid.place-items-center.rounded-full.shadow-lg {
     /* border: 2px solid teal; */
     border-radius: 50px;
 }
+
+ .react-player > video {
+   position: absolute;
+   object-fit: fill;
+ }
