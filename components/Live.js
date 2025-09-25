@@ -5,8 +5,8 @@ const[live, setLive] = useState(false);
 
     function liveStream() {
         const date = new Date();
-        const start = new Date("October 20, 2024 16:00:00");
-        const end = new Date("October 26, 2024 20:00:00");
+        const start = new Date("October 20, 2025 16:00:00");
+        const end = new Date("October 26, 2025 20:00:00");
 
         if (date > start && date < end) {
             setLive(true);

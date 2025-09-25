@@ -14,7 +14,7 @@ export default function GridImages() {
     ]
     const vertBoxes = ctl(`relative  box-border w-24 md:w-36 my-2 h-24 md:h-56 p-3 flex flex-col justify-center items-center`)
     return (
-        <>
+    <div>
         <div className='my-5 h-auto  flex justify-end items-center'>
 
             <div className="flex gap-2 my-5 mx-2 ">
@@ -44,7 +44,9 @@ export default function GridImages() {
 
             </div>
         </div>
-        </>
+    </div>
+
+        
 
     );
 

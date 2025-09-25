@@ -51,7 +51,7 @@ useEffect(() => {
   <>
     <section>
       {/* <ImagineHeader bigtitle={`About the Series`} smallTitle={miniTitle} /> */}
-      <Imagine2 topTitle={topTitle} bigTitle={'About The Non-Stop Series'} hidden={''} paragraph={`For the past 20 years, the Logos-Rhema Foundation for Leadership Resource Development, based in Accra, Ghana, has organised and held under its auspices, a series of non-stop praise & worship programmes. The series began with 24-hour sessions which   progressed to 48 hours, 72 hours, 96 hours, 120 hours, and now 144 hours; the first session of which was held 2021.`} />
+      <Imagine2 topTitle={topTitle} bigTitle={'About The Non-Stop Series'} hidden={''} paragraph={`For the past 22 years , the Logos-Rhema Foundation for Leadership Resource Development, based in Accra, Ghana, has organised and held under its auspices, a series of non-stop praise & worship programmes. The series began with 24-hour sessions which   progressed to 48 hours, 72 hours, 96 hours, 120 hours, and now 144 hours; the first session of which was held 2021.`} />
     </section>
 
     <section className={sectionCssBlock}>
